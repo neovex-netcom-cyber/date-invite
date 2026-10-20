@@ -6,7 +6,7 @@
 <title>יום הולדת שמח אריאל</title>
 <style>
 html, body { margin: 0; min-height: 100%; }
-body { background: #140810; }
+body { background: #f7f0e6; }
 * { box-sizing: border-box; }
 
 .stage {
@@ -18,19 +18,19 @@ body { background: #140810; }
     min-height: 100dvh;
     overflow: hidden;
     background:
-        radial-gradient(1100px 500px at 85% -5%, rgba(217, 58, 85, 0.22), transparent 60%),
-        radial-gradient(900px 480px at 5% 12%, rgba(245, 201, 155, 0.12), transparent 55%),
-        linear-gradient(168deg, #2b1120 0%, #1c0b16 45%, #140810 100%);
-    color: #f7ecec;
+        radial-gradient(1100px 500px at 85% -5%, rgba(242, 167, 187, 0.32), transparent 60%),
+        radial-gradient(900px 480px at 5% 12%, rgba(168, 200, 232, 0.28), transparent 55%),
+        linear-gradient(168deg, #fdf8f0 0%, #fbf1e8 45%, #f5ebe0 100%);
+    color: #4a3a3a;
     font-family: "KMR Melange Grotesk", "Segoe UI", "Arial Hebrew", Arial, sans-serif;
 }
 
 .bokeh { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
 .orb { position: absolute; border-radius: 50%; filter: blur(46px); opacity: 0.5; animation: orbDrift 16s ease-in-out infinite alternate; }
-.orb-1 { width: 220px; height: 220px; background: rgba(217, 58, 85, 0.35); top: -60px; right: -50px; }
-.orb-2 { width: 170px; height: 170px; background: rgba(245, 201, 155, 0.22); top: 24%; left: -60px; animation-delay: -4s; }
-.orb-3 { width: 200px; height: 200px; background: rgba(242, 113, 138, 0.25); top: 48%; right: -70px; animation-delay: -8s; }
-.orb-4 { width: 230px; height: 230px; background: rgba(140, 29, 51, 0.4); bottom: -70px; right: 10%; animation-delay: -6s; }
+.orb-1 { width: 220px; height: 220px; background: rgba(242, 167, 187, 0.5); top: -60px; right: -50px; }
+.orb-2 { width: 170px; height: 170px; background: rgba(230, 192, 122, 0.4); top: 24%; left: -60px; animation-delay: -4s; }
+.orb-3 { width: 200px; height: 200px; background: rgba(242, 167, 187, 0.4); top: 48%; right: -70px; animation-delay: -8s; }
+.orb-4 { width: 230px; height: 230px; background: rgba(168, 200, 232, 0.45); bottom: -70px; right: 10%; animation-delay: -6s; }
 @keyframes orbDrift { from { transform: translate(0,0) scale(1); } to { transform: translate(30px, 40px) scale(1.12); } }
 
 .sky { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
@@ -67,7 +67,7 @@ body { background: #140810; }
 
 .serif { font-family: "Noto Serif Hebrew", "David Libre", "David", Georgia, "Times New Roman", serif; }
 .gold-text {
-    background: linear-gradient(95deg, #f5c99b 10%, #f2718a 55%, #e6c07a 90%);
+    background: linear-gradient(95deg, #d4a24e 10%, #e0698a 55%, #c98f3d 90%);
     -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 
@@ -77,9 +77,9 @@ body { background: #140810; }
     max-width: 360px;
     padding: 44px 26px 34px;
     border-radius: 24px;
-    background: linear-gradient(180deg, rgba(43,17,32,.92), rgba(28,11,22,.94));
-    border: 1px solid rgba(230,192,122,.35);
-    box-shadow: 0 30px 80px rgba(0,0,0,.55), 0 0 70px rgba(217,58,85,.16);
+    background: linear-gradient(180deg, #fffdf8, #fdf4e6);
+    border: 1px solid rgba(185,138,62,.4);
+    box-shadow: 0 30px 80px rgba(120,80,60,.22), 0 0 70px rgba(242,167,187,.22);
 }
 .wax {
     width: 92px; height: 92px;
@@ -92,9 +92,9 @@ body { background: #140810; }
 }
 @keyframes sealPulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
 .wax svg { width: 42px; height: 42px; }
-.gate-kicker { font-size: 12px; letter-spacing: 3px; color: #e6c07a; opacity: .85; margin-bottom: 12px; }
+.gate-kicker { font-size: 12px; letter-spacing: 3px; color: #b98a3e; opacity: .85; margin-bottom: 12px; }
 .gate-name { font-size: 42px; font-weight: 700; line-height: 1.15; margin: 0 0 10px; }
-.gate-sub { font-size: 15px; color: #e8d5d8; opacity: .85; margin: 0 0 26px; }
+.gate-sub { font-size: 15px; color: #8a6f6f; opacity: .85; margin: 0 0 26px; }
 
 .btn-main {
     appearance: none; border: 0; cursor: pointer;
@@ -117,7 +117,7 @@ body { background: #140810; }
     padding: 12px 12px 16px;
     border-radius: 18px;
     background: linear-gradient(180deg, #fdf7ea, #f4e8cf);
-    box-shadow: 0 18px 50px rgba(0,0,0,.5), 0 0 60px rgba(217,58,85,.18);
+    box-shadow: 0 18px 50px rgba(120,80,60,.22), 0 0 60px rgba(242,167,187,.22);
     transform: rotate(-1.4deg);
     animation: riseIn 0.8s ease 0.2s both;
 }
@@ -140,19 +140,19 @@ body { background: #140810; }
     text-align: right;
     padding: 24px 22px;
     border-radius: 20px;
-    background: linear-gradient(180deg, rgba(253,247,234,.06), rgba(253,247,234,.03));
-    border: 1px solid rgba(230,192,122,.25);
-    box-shadow: 0 16px 44px rgba(0,0,0,.4);
+    background: rgba(255,255,255,.62);
+    border: 1px solid rgba(185,138,62,.3);
+    box-shadow: 0 16px 44px rgba(120,80,60,.14);
     margin-bottom: 26px;
     animation: riseIn 0.8s ease 0.45s both;
 }
 .letter h1 { font-size: 28px; margin: 0 0 14px; text-align: center; }
-.letter p { font-size: 16.5px; line-height: 1.85; color: #efe0e3; margin: 0 0 12px; }
+.letter p { font-size: 16.5px; line-height: 1.85; color: #5a4646; margin: 0 0 12px; }
 .letter .sign { font-size: 20px; margin-top: 16px; margin-bottom: 0; }
 
 /* ============ screen 3: wish ============ */
 .wish-title { font-size: 30px; margin: 0 0 8px; animation: riseIn .7s ease .1s both; }
-.wish-sub { font-size: 16px; color: #e8d5d8; opacity: .9; margin: 0 0 30px; max-width: 320px; line-height: 1.8; animation: riseIn .7s ease .25s both; }
+.wish-sub { font-size: 16px; color: #8a6f6f; opacity: .9; margin: 0 0 30px; max-width: 320px; line-height: 1.8; animation: riseIn .7s ease .25s both; }
 
 .cake-wrap { position: relative; width: 240px; height: 250px; margin-bottom: 30px; animation: riseIn .8s ease .4s both; }
 .plate { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 220px; height: 16px; border-radius: 50%; background: linear-gradient(180deg, #f5c99b, #b98a4e); box-shadow: 0 8px 22px rgba(0,0,0,.5); }
@@ -194,9 +194,9 @@ body { background: #140810; }
 .wish-final { display: none; }
 .wish-final.shown { display: block; animation: screenIn 1s ease both; }
 .wish-final h2 { font-size: 34px; margin: 0 0 10px; }
-.wish-final p { font-size: 17px; color: #efe0e3; line-height: 1.8; margin: 0 0 22px; }
+.wish-final p { font-size: 17px; color: #5a4646; line-height: 1.8; margin: 0 0 22px; }
 
-.footer-joke { position: relative; z-index: 2; padding: 0 20px 22px; text-align: center; font-size: 11px; color: #cbb; opacity: .55; font-family: "SF Mono", Menlo, Consolas, monospace; }
+.footer-joke { position: relative; z-index: 2; padding: 0 20px 22px; text-align: center; font-size: 11px; color: #8a6f6f; opacity: .55; font-family: "SF Mono", Menlo, Consolas, monospace; }
 </style>
 </head>
 <body>
@@ -273,7 +273,7 @@ body { background: #140810; }
 // floating hearts
 (function () {
     var sky = document.getElementById('sky');
-    var heartSvg = 'url(\'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23f2718a"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>\')';
+    var heartSvg = 'url(\'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23e0698a"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>\')';
     for (var i = 0; i < 10; i++) {
         var h = document.createElement('div');
         h.className = 'heart';
@@ -291,7 +291,7 @@ body { background: #140810; }
 var cv = document.getElementById('confetti'), cx = cv.getContext('2d'), parts = [], raf = null;
 function sizeCanvas() { cv.width = innerWidth; cv.height = innerHeight; }
 sizeCanvas(); addEventListener('resize', sizeCanvas);
-var COLORS = ['#e6c07a', '#f5c99b', '#f2718a', '#d93a55', '#fdf7ea'];
+var COLORS = ['#e6c07a', '#f5c99b', '#f2718a', '#e0698a', '#a8c8e8'];
 function burst(n, ox, oy, spread) {
     for (var i = 0; i < n; i++) {
         parts.push({
