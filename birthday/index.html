@@ -199,6 +199,23 @@ body { background: #f7f0e6; }
 .wish-final p { font-size: 17px; color: #5a4646; line-height: 1.8; margin: 0 0 22px; }
 
 .footer-joke { position: relative; z-index: 2; padding: 0 20px 22px; text-align: center; font-size: 11px; color: #8a6f6f; opacity: .55; font-family: "SF Mono", Menlo, Consolas, monospace; }
+
+/* ============ gift reveal ============ */
+.gift-card {
+    margin: 26px auto 0;
+    max-width: 320px;
+    padding: 24px 22px;
+    border-radius: 20px;
+    background: rgba(255,255,255,.68);
+    border: 1px solid rgba(185,138,62,.35);
+    box-shadow: 0 16px 44px rgba(120,80,60,.16);
+    animation: screenIn 1s ease .6s both;
+}
+.gift-icon { margin-bottom: 10px; animation: giftBob 2.2s ease-in-out infinite; }
+@keyframes giftBob { 0%,100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-6px) rotate(3deg); } }
+.gift-title { font-size: 26px; font-weight: 700; margin: 0 0 6px; }
+.gift-sub { font-size: 15px; color: #8a6f6f; margin: 0 0 16px; }
+.gift-card .btn-main { display: inline-block; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -269,6 +286,12 @@ body { background: #f7f0e6; }
             <p>יום הולדת שמח, אריאל.<br>אוהב אותך.</p>
             <div class="wax" style="width:72px;height:72px;">
                 <svg viewBox="0 0 24 24" fill="#fdf7ea" style="width:32px;height:32px;" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+            <div class="gift-card">
+                <div class="gift-icon"><svg width="46" height="46" viewBox="0 0 24 24" fill="#e0698a" aria-hidden="true"><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.65-.5-.65C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/></svg></div>
+                <div class="gift-title serif gold-text">המתנה שלך</div>
+                <p class="gift-sub">משהו קטן שמחכה לך כאן</p>
+                <a class="btn-main" href="https://buyme.co.il/W3833oefk70mia" target="_blank" rel="noopener noreferrer">פתחי את המתנה</a>
             </div>
         </div>
     </section>
